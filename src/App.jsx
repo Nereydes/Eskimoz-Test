@@ -1,13 +1,12 @@
 import "./App.css";
-import sampleData from "./data/sample.json";
-import GridCard from "./components/GridCard";
+import FilteredGrid from "./components/FilteredGrid";
 
 function App() {
 	return (
 		<>
-			<div>
-				<GridCard users={sampleData} />
-			</div>
+			<h1 className="text-center text-4xl font-bold mt-20 mb-5">Welcome, captain!</h1>
+			<p className="text-center font-semibold mb-10">Here you can view the list of robots in your inventory.</p>
+			<FilteredGrid />
 		</>
 	);
 }
