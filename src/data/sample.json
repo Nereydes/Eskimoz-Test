@@ -1,0 +1,6 @@
+[
+	{ "name": "Alice", "age": 25, "job": "Developer", "location": "Paris", "image": "portrait_1.png" },
+	{ "name": "Bob", "age": 30, "job": "Designer", "location": "London", "image": "portrait_2.png" },
+	{ "name": "Charlie", "age": 35, "job": "Developer", "location": "Berlin", "image": "portrait_3.png" },
+	{ "name": "Diane", "age": 28, "job": "Marketer", "location": "New York", "image": "portrait_4.png" }
+]
